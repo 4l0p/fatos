@@ -1,0 +1,83 @@
+@font-face {
+      font-family: 'Arvo';
+      src: url("Arvo-Regular.ttf");
+}
+
+body {
+      margin: 0;
+      padding: 0;
+      background-color: lightgray
+}
+
+section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between
+}
+
+
+div {
+      border: solid 1px black;
+      background-color: white
+}
+
+form div + div {
+      margin-top: 1em;
+}
+
+label {
+      display: inline-block;
+      width: 35%;
+      text-align: right;
+      font-family: "Arvo";
+      font-size: 1.3em;
+      padding: 1px;
+
+
+}
+
+input, textarea {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.1em;
+      width: 60%;
+      height: 50px;
+}
+
+textarea {
+      vertical-align: top;
+      resize: vertical;
+      height: 10em;
+
+}
+
+button {
+      margin-left: .5em
+}
+
+.button {
+      padding-left: 35%;
+}
+
+img {
+      width: 50px;
+      height: 50px
+}
+
+.container {
+      width: 85%;
+      margin: 0 auto
+}
+
+.f-contact {
+      width: 50%;
+}
+
+.info-contact {
+      width: 40%
+}
+
+.info-tel {
+      display: flex;
+      align-items:center;
+      justify-content: space-between
+}
