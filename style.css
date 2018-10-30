@@ -6,19 +6,14 @@
 body {
       margin: 0;
       padding: 0;
-      background-color: lightgray
+      background-color: #F8F8F8
 }
+
 
 section {
       display: flex;
-      align-items: center;
+      align-items: initial;
       justify-content: space-between
-}
-
-
-div {
-      border: solid 1px black;
-      background-color: white
 }
 
 form div + div {
@@ -32,9 +27,38 @@ label {
       font-family: "Arvo";
       font-size: 1.3em;
       padding: 1px;
+}
 
+h2 {
+      margin-bottom: 1em;
+      font-size: 2em;
+      font-family: "Arvo";
+      color: #EBEBEB;
+}
+
+p {
+      font-family: "Arvo";
 
 }
+
+.line-hr {
+      background-color: white;
+      border-bottom: solid 1px #f2f2f2;
+      margin-bottom: 1.1em;
+      padding: 1em
+}
+
+.line-hr:hover {
+      border-bottom: solid 1px #c3c3c3;
+      box-shadow: 3px 3px 5px #ABABAB;
+}
+
+.p1 { font-size: 1.5em }
+
+.p2 { font-size: 1.3em }
+
+.p3 { font-size: 1.2em }
+
 
 input, textarea {
       font-family: Arial, Helvetica, sans-serif;
@@ -50,34 +74,52 @@ textarea {
 
 }
 
-button {
-      margin-left: .5em
+button { margin-left: .5em }
+
+.mid {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
 }
 
-.button {
-      padding-left: 35%;
-}
-
-img {
-      width: 50px;
-      height: 50px
-}
+.button { padding-left: 35% }
 
 .container {
       width: 85%;
-      margin: 0 auto
+      margin: 0 auto;
+      align-items: center;
+      margin-top: .5em
 }
 
 .f-contact {
-      width: 50%;
+      width: 46%;
+      background-color: white;
+      border: solid 1px #F2F2F2;
+      padding: 1em;
 }
 
 .info-contact {
-      width: 40%
+      width: 46%;
+      background-color: white;
+      border: solid 1px #F2F2F2;
+      padding: 1em;
 }
 
-.info-tel {
+.info-contact:hover, .f-contact:hover {
+      border: solid 1px #c3c3c3;
+      box-shadow: 3px 3px 10px #ABABAB;
+}
+
+.info-tel, .info-email, .info-local {
       display: flex;
       align-items:center;
-      justify-content: space-between
+      justify-content: space-between;
+      margin: 0.5em 1.5em 0 1.5em;
+      border-bottom: solid 1px #f2f2f2;
+}
+
+.logo-info { 
+      margin-right: 1.5em;
+      opacity: 0.3;
 }
